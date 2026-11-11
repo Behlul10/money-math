@@ -79,8 +79,8 @@ public class main {
 
         switch(floatVsBigDecimal) {
             case 0 -> System.out.println("Float and BigDecimal have the same value");
-            case 1 -> System.out.println("float is less than BigDecimal");
-            case -1 -> System.out.println("float is bigger than BigDecimal");
+            case 1 -> System.out.println("float is bigger than BigDecimal");
+            case -1 -> System.out.println("float is less than BigDecimal");
             default -> {
                 System.out.println("I dont know what's going on, good luck");
                 System.exit(1);
